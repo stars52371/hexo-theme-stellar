@@ -83,3 +83,16 @@ tagtree:
   expand_all: false # 是否展开所有节点
   expand_active: true # 是否展开当前节点
   show_tagcon: true # 是否显示标签 icon
+wel:
+  layout: markdown
+  title: 欢迎到来!
+  linklist: # 与 linklist 组件写法相同
+    columns: 1 
+    items:
+      - icon:
+        title: 
+        url:
+  content: |
+    本博客使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar/) 主题搭建
+    使用vercel托管
+  src: # 可以设置外部 md 文件链接
