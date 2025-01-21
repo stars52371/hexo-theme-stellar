@@ -89,9 +89,9 @@ wel:
   linklist: # 与 linklist 组件写法相同
     columns: 1 
     items:
-      - icon:
-        title: 
-        url:
+      - icon: https://xaoxuu.com/assets/wiki/stellar/icon.svg
+        title: Stellar GitHub
+        url: https://github.com/xaoxuu/hexo-theme-stellar
   content: |
     本博客使用 [Stellar](https://github.com/xaoxuu/hexo-theme-stellar/) 主题搭建
     使用vercel托管
