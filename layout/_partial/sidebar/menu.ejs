@@ -13,7 +13,6 @@ function layoutDiv() {
     el += `>`
     if (item.icon?.length > 0) {
       el += icon(item.icon, 'no-lazy')
-    } else {
       el += `<span>${__(item.title)}</span>`
     }
     el += `</a>`
