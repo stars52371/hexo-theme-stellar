@@ -19,35 +19,39 @@
     font-size: $fs-15
     font-weight: 500
     color: var(--text-p3)
-    text-align: center
+    text-align: left
     background: var(--alpha50)
     trans1 background
     position: relative
     display: flex
-    flex-direction: column
+    flex-direction: row
     align-items: center
-    justify-content: center
+    justify-content: flex-start
     img,svg
       height: 28px
       object-fit: contain
       filter: grayscale(100%) brightness(0.8) opacity(0.8)
       trans1 all
+      margin-right: 6px
+      margin-left: 12px
     span
       text-overflow: ellipsis
       word-break: keep-all
+      filter: grayscale(100%) brightness(0.8) opacity(0.8)
+      trans1 all
     &.active, &:hover
       color: var(--text-p1)
       background: var(--alpha100)
-      img,svg
+      img,svg,span
         filter: unset
     &.active:after
       content: ''
       position absolute
-      width: 22px
-      height: 2px
-      left: 50%
+      width: 5px
+      height: 30px
+      left: 3%
       transform: translateX(-50%)
       border-radius: 2px
-      bottom: 2px
+      //bottom: 2px
       background: currentColor
 
